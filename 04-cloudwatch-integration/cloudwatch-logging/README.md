@@ -3,11 +3,11 @@
 ## enable e.g. via yaml config file
 
 ```bash
-eksctl utils update-cluster-logging --config-file eks-course.yaml --approve
+eksctl utils update-cluster-logging --config-file eks-config.yaml --approve
 ```
 
 ## disable via plain commandline call
 
 ```bash
-eksctl utils update-cluster-logging --name=EKS-course-cluster --disable-types all
+eksctl utils update-cluster-logging --name=eks-cluster --disable-types all
 ```
